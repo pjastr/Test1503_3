@@ -1,7 +1,12 @@
-
 very_long_variable_name = "This is an extremely long string that goes well beyond the recommended line length of seventy-nine characters in PEP 8"
 
-another_long_line = {"key_one": "value_one", "key_two": "value_two", "key_three": "value_three", "key_four": "value_four", "key_five": "value_five"}
+another_long_line = {
+    "key_one": "value_one",
+    "key_two": "value_two",
+    "key_three": "value_three",
+    "key_four": "value_four",
+    "key_five": "value_five",
+}
 
 x = None
 if x == None:
@@ -24,7 +29,7 @@ if type(value) == int:
 if type(value) is dict:
     print("dict")
 
-square = lambda x: x ** 2
+square = lambda x: x**2
 add = lambda a, b: a + b
 greet = lambda name: f"Hello, {name}"
 
@@ -32,8 +37,11 @@ l = 1
 O = 2
 I = 3
 
+
 def ambiguous_params(l, O, I):
     return l + O + I
+
+
 def overly_complex_function(a, b, c, d, e):
     if a > 0:
         if b > 0:

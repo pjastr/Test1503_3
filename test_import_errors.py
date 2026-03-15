@@ -1,4 +1,3 @@
-
 import os, sys, json
 import os
 import collections
@@ -16,18 +15,26 @@ from os.path import *
 
 import json
 
+
 class MyClass:
     def method_one(self):
         return 1
+
     def method_two(self):
         return 2
+
     class InnerClass:
         pass
 
+
 def first_function():
     return "first"
+
+
 def second_function():
     return "second"
+
+
 def third_function():
     used_os = os.getcwd()
     used_sys = sys.version
